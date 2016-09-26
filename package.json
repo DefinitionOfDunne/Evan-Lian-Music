@@ -5,12 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "standard",
-    "build": "webpack"
+    "build": "webpack --progress"
   },
   "author": "Dylan Dunne",
   "license": "MIT",
   "dependencies": {
-    "axios": "0.9.1",
     "express": "4.13.4",
     "lodash": "4.6.1",
     "react": "^0.14.7",

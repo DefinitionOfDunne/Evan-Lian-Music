@@ -1,10 +1,12 @@
 const React = require('react')
-const shows = require('../public/data')
+const Navbar = require('./Navbar')
+const Header = require('./Header')
 
 const Covers = () => (
-  <pre><code>
-    {JSON.stringify(shows, null, 4)}
-  </code></pre>
-)
+  <div>
+    <Header title='Covers Page' />
+    <Navbar />
+  </div>
+ )
 
 module.exports = Covers
