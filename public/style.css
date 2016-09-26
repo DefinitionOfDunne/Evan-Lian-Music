@@ -21,3 +21,18 @@ html {
   color: white;
 }
 
+.navbar {
+  width: 100vw;
+  height: 3rem;
+  background-color: white;
+
+}
+.navbar-item {
+  color: white;
+  float: right;
+  margin: 0rem 1rem 0rem 0rem;
+  background-color: blue;
+  font-size: 2rem;
+  text-decoration: none;
+}
+

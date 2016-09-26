@@ -4,10 +4,10 @@ const { Link } = require('react-router')
 const Navbar = React.createClass({
   render () {
     return (
-      <div>
+      <div className='navbar'>
         <Link className='navbar-item' to='/bio'>Bio</Link>
-        <Link to='/covers'>Covers</Link>
-        <Link to='/contact'>Contact</Link>
+        <Link className='navbar-item' to='/covers'>Covers</Link>
+        <Link className='navbar-item' to='/contact'>Contact</Link>
       </div>
     )
   }

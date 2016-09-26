@@ -4,8 +4,8 @@ const Header = require('./Header')
 
 const Bio = () => (
   <div>
-    <Header title='Bio Page' />
     <Navbar />
+    <Header title='Bio Page' />
   </div>
  )
 

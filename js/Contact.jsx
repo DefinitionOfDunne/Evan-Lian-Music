@@ -4,8 +4,8 @@ const Header = require('./Header')
 
 const Contact = () => (
   <div>
-    <Header title='Contact Me Page' />
     <Navbar />
+    <Header title='Contact Me Page' />
   </div>
  )
 

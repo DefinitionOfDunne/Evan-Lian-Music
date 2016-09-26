@@ -4,8 +4,8 @@ const Header = require('./Header')
 
 const Covers = () => (
   <div>
-    <Header title='Covers Page' />
     <Navbar />
+    <Header title='Covers Page' />
   </div>
  )
 
