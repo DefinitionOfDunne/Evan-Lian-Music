@@ -1,10 +1,8 @@
 const React = require('react')
-const Navbar = require('./Navbar')
 const Header = require('./Header')
 
 const Contact = () => (
-  <div>
-    <Navbar />
+  <div className='title'>
     <Header title='Contact Me Page' />
   </div>
  )
