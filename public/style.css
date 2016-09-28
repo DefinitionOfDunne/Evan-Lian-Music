@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  list-style: none;
 }
 
 html {
@@ -12,7 +13,6 @@ html {
   position: relative;
   width: 100%;
   height: 80rem;
-  background-image: url(img/evan2.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -23,6 +23,7 @@ html {
 
 .title {
   margin-top: 3rem;
+  color: black;
 }
 .navbar {
   width: 100vw;
@@ -33,12 +34,10 @@ html {
 
 }
 .navbar-item {
-  color: white;
+  color: black;
   float: right;
-  margin: 0rem 1rem 0rem 0rem;
-  background-color: blue;
-  font-size: 2rem;
-  text-decoration: none;
+  margin: 0rem 2rem 0rem 0rem;
+  font-size: 1rem;
 }
 
 .footer {
@@ -50,10 +49,22 @@ html {
 }
 
 .footer-item {
-  color: white;
-  margin: 0rem 1rem 0rem 0rem;
-  background-color: blue;
-  font-size: 2rem;
+  color: black;
+  margin: 0rem 4rem 0rem 0rem;
+  font-size: 1rem;
   text-decoration: none;
 }
 
+.block-text {
+  color: black;
+  width: 50%;
+  margin: 5rem auto;
+}
+.cover-ul-wrapper {
+  width: 100%;
+}
+.covers-li {
+  float: right;
+  width: 50%;
+  margin: 3rem 0rem 3rem 0rem;
+}
