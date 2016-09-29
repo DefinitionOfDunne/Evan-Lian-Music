@@ -4,7 +4,7 @@ const { Link } = require('react-router')
 const Navbar = React.createClass({
   render () {
     return (
-      <div className='navbar'>
+      <div className={this.props.classname}>
         <Link className='navbar-item' to='/bio'>Bio</Link>
         <Link className='navbar-item' to='/covers'>Covers</Link>
         <Link className='navbar-item' to='/contact'>Contact</Link>
@@ -12,5 +12,11 @@ const Navbar = React.createClass({
     )
   }
 })
+
+const { string } = React.PropTypes
+
+Navbar.propTypes = {
+  classname: string.isRequired
+}
 
 module.exports = Navbar

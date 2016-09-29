@@ -4,7 +4,7 @@ const Footer = require('./Footer')
 
 const Layout = (props) => (
   <div className='app-container'>
-    <Navbar />
+    <Navbar classname='header-nav' />
     {props.children}
     <Footer />
   </div>

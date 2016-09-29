@@ -1,12 +1,13 @@
-@import 'https://fonts.googleapis.com/css?family=Yatra+One';
+@import 'https://fonts.googleapis.com/css?family=Dosis:300|Muli:300';
 
 * {
   box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
 }
 
 html {
-  font-family: 'Yatra One', cursive;
+  font-family: 'Muli', cursive;
 }
 
 .app-container {
@@ -15,6 +16,7 @@ html {
   height: 80rem;
   background-size: cover;
   background-position: center;
+  background-color: bisque;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -22,39 +24,61 @@ html {
 }
 
 .title {
-  margin-top: 3rem;
+  margin-top: 5rem;
   color: black;
+  font-size: 2rem;
 }
-.navbar {
+.header-nav {
   width: 100vw;
-  height: 3rem;
-  background-color: white;
+  height: 5rem;
+  background-color: #71d4d4;
   position: absolute;
   top: 0;
-
+}
+.brand-logo{
+  z-index: 4;
+  max-height: 21rem;
+  position: absolute;
+  background-color: rgba(224, 100, 224, 0.42);
+  border-radius: 2px 41px 5px;
+  left: 0;
+}
+.brand-logo img {
+  height: 20rem;
 }
 .navbar-item {
   color: black;
   float: right;
-  margin: 0rem 2rem 0rem 0rem;
+  margin: 1rem 2rem 0rem 0rem;
   font-size: 1rem;
 }
 
 .footer {
   width: 100vw;
-  height: 5rem;
-  background-color: white;
+  height: 10rem;
+  background-color: green;
   position: absolute;
   bottom: 0;
 }
 
-.footer-item {
-  color: black;
-  margin: 0rem 4rem 0rem 0rem;
-  font-size: 1rem;
-  text-decoration: none;
+.footer-nav {
+  background-color: orange;
+  width: 50%;
+  height: 100%;
+  display: inline-block;
 }
 
+.footer-item {
+  color: black;
+  margin: 1.5rem 4rem 0rem 0rem;
+  font-size: 1rem;
+  display: inherit;
+}
+.social-media-links {
+  width: 50%;
+  float: right;
+  height: 100%;
+}
 .block-text {
   color: black;
   width: 50%;

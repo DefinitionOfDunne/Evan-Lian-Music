@@ -1,9 +1,11 @@
 const React = require('react')
 const Header = require('./Header')
+const Brand = require('./Brand')
 
 const Landing = () => (
   <div>
-    <Header title='This is The Home Page' />
+  	<Brand />
+    <Header title='Evan Lian Music' />
   </div>
  )
 
