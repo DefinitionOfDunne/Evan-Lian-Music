@@ -1,23 +1,136 @@
-@import 'https://fonts.googleapis.com/css?family=Yatra+One';
+@import 'https://fonts.googleapis.com/css?family=Dosis:300|Muli:300';
+@import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
 
 * {
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 html {
-  font-family: 'Yatra One', cursive;
+  font-family: 'Muli', cursive;
+}
+
+img {
+  max-width: 35rem;
+}
+
+.image-gallery {
+  margin-top: 10rem;
 }
 
 .app-container {
   position: relative;
   width: 100%;
-  height: 100vh;
-  background-image: url(img/evan2.jpg);
+  height: 80rem;
   background-size: cover;
   background-position: center;
+  background-color: bisque;
   display: flex;
   justify-content: center;
   text-align: center;
   color: white;
 }
 
+.title {
+  margin-top: 5rem;
+  color: black;
+  font-size: 2rem;
+}
+.header-nav {
+  width: 100vw;
+  height: 5rem;
+  background-color: #71d4d4;
+  position: absolute;
+  top: 0;
+}
+.header-nav a {
+  color: black;
+  float: right;
+  margin: 1rem 2rem 0rem 0rem;
+  font-size: 1rem;
+}
+.brand-logo{
+  font-family: 'Dosis', cursive;
+  z-index: 4;
+  max-height: 21rem;
+  position: absolute;
+  background-color: rgba(224, 100, 224, 0.42);
+  border-radius: 2px 41px 5px;
+  left: 0;
+}
+.brand-logo img {
+  height: 20rem;
+  opacity: .3;
+}
+
+.footer {
+  width: 100vw;
+  height: 10rem;
+  background-color: #71d4d4;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-nav {
+  background-color: rgba(224, 100, 224, 0.42);
+  width: 33%;
+  height: 100%;
+  display: inline-block;
+}
+.random-div {
+  height: 100%;
+  width: 33%;
+  background-color: gray;
+  float: right;
+}
+.footer-nav a {
+  color: black;
+  margin: 1.5rem 4rem 0rem 0rem;
+  font-size: 1rem;
+  display: block;
+}
+
+.social-media-links {
+  width: 33%;
+  float: right;
+  height: 100%;
+}
+.social-media-links a {
+  color: black;
+  margin: 1.5rem 4rem 0rem 0rem;
+  font-size: 1rem;
+  display: block;
+}
+.block-text {
+  color: black;
+  width: 50%;
+  margin: 5rem auto;
+}
+.cover-ul-wrapper {
+  width: 100%;
+}
+.covers-li {
+  float: right;
+  width: 50%;
+  margin: 3rem 0rem 3rem 0rem;
+}
+.logo-text-container {
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+    font-variant: small-caps;
+    letter-spacing: 15px;
+    line-height: 37px;
+    text-align: left;
+}
+.logo-text{
+  margin-top: 1rem;
+}
+.logo-text-container span:first-of-type {
+  font-size: 4rem;
+  font-weight: 600;
+}
+.logo-text-container span:last-child{
+  font-size: 2rem;
+}

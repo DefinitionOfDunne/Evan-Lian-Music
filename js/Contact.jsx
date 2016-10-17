@@ -1,10 +1,10 @@
 const React = require('react')
-const shows = require('../public/data')
+const Header = require('./Header')
 
 const Contact = () => (
-  <pre><code>
-    {JSON.stringify(shows, null, 4)}
-  </code></pre>
-)
+  <div className='title'>
+    <Header title='Contact Me Page' />
+  </div>
+ )
 
 module.exports = Contact

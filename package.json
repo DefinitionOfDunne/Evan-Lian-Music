@@ -5,16 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "standard",
-    "build": "webpack"
+    "build": "webpack --progress"
   },
   "author": "Dylan Dunne",
   "license": "MIT",
   "dependencies": {
-    "axios": "0.9.1",
+    "classnames": "^2.2.5",
     "express": "4.13.4",
+    "ionicons": "^3.0.0",
     "lodash": "4.6.1",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
+    "react-image-gallery": "^0.7.2",
     "react-redux": "^4.4.0",
     "react-router": "^2.0.0",
     "redux": "^3.3.1"

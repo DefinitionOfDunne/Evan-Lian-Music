@@ -1,13 +1,11 @@
 const React = require('react')
-const { Link } = require('react-router')
+const Header = require('./Header')
+const Brand = require('./Brand')
 
 const Landing = () => (
-  	<div>
-  		<h1> Evan Lian Music</h1>
-  		<Link to='/bio'>Bio</Link>
-  		<Link to='/covers'>Covers</Link>
-  		<Link to='/contact'>Contact</Link>
-  	</div>
+  <div>
+    <Header title='Evan Lian Music' />
+  </div>
  )
 
 module.exports = Landing
