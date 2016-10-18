@@ -111,18 +111,18 @@ img {
   width: 100%;
 }
 .covers-li {
-  float: right;
+float: right;
   width: 50%;
   margin: 3rem 0rem 3rem 0rem;
 }
 .logo-text-container {
-    position: absolute;
-    top: 6rem;
-    left: 3rem;
-    font-variant: small-caps;
-    letter-spacing: 15px;
-    line-height: 37px;
-    text-align: left;
+position: absolute;
+  top: 6rem;
+  left: 3rem;
+  font-variant: small-caps;
+  letter-spacing: 15px;
+  line-height: 37px;
+  text-align: left;
 }
 .logo-text{
   margin-top: 1rem;
